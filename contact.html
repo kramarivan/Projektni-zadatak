@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Formula 1 - Latest news, results, drivers, and teams.">
+    <meta name="keywords" content="Formula 1, F1, races, drivers, teams">
+    <meta name="author" content="Ivan Kramar">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+    <title>Contact</title>
+</head>
+	<body>
+	<header>
+		<div class="hero-image" style="height: 200px;"></div>
+		<nav>
+			<ul>
+			  <li><a href="index.html">Home</a></li>
+			  <li><a href="news.html">News</a></li>
+			  <li><a href="contact.html">Contact</a></li>
+			  <li><a href="about-us.html">About</a></li>
+			  <li><a href="gallery.html">Gallery</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<h1>Contact Form</h1>
+		<div id="contact">
+			<iframe src="http://maps.google.com/maps?q=45.772366, 15.944950&z=16&output=embed" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+			<form action="" id="contact_form" name="contact_form" method="POST">
+				<label for="fname">First Name *</label>
+				<input type="text" id="fname" name="firstname" placeholder="Your name" required>
+
+				<label for="lname">Last Name *</label>
+				<input type="text" id="lname" name="lastname" placeholder="Your last name" required>
+				
+				<label for="lname">E-mail *</label>
+				<input type="email" id="email" name="email" placeholder="Your e-mail" required>
+
+				<label for="country">Country</label>
+				<select id="country" name="country">
+				  <option value="">Please select</option>
+				  <option value="SR">Serbia</option>
+				  <option value="HR" selected>Croatia</option>
+				  <option value="BH">Bosnia & Herzegovina</option>
+				  <option value="HU">Hungary</option>
+				  <option value="SI">Slovenia</option>
+				</select>
+
+				<label for="subject">Subject</label>
+				<textarea id="subject" name="subject" placeholder="Write a subject" style="height:200px"></textarea>
+
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+	</main>
+	<footer>
+		<p>Copyright &copy; 2023 Ivan Kramar. <a href="https://github.com/kramarivan" target="_blank"><img src="img/GitHub-Mark-Light-32px.png" title="Github" alt="Github"></a></p>
+	</footer>
+</body>
+</html>
